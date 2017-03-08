@@ -1,0 +1,16 @@
+151a152,166
+>     
+>     /**
+>      * Prepares and starts an activity to show the image picker UI
+>      * <p>
+>      * This method returns immediately if the user does not provide
+>      * permission to use the device's camera. If the user agrees to
+>      * provide camera permissions, then a storage location is chosen
+>      * and the intent for the camera is set up to allow the user to
+>      * take a new picture to upload. The image picker intent is also
+>      * set up to allow the user to pick a picture from the specified
+>      * storage location.
+>      * <p>
+>      * @AfterPermissionGranted param RC_CAMERA_PERMISSIONS Stores true if the user granted camera permissions or false otherwise
+>      * @return if RC_CaMERA_PERMISSIONS is false, otherwise the picker activity is created and started
+>      */
